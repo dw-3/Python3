@@ -1,0 +1,34 @@
+作者:yilei
+版本:示例版本 v0.1
+程序介绍:
+    实现ATM常用功能
+    功能全部用python的基础知识实现,用到了模块，函数，文件操作，装饰器
+├── bin
+│   ├── debug.py
+│   ├── __init__.py
+│   └── start.py #主程序执行文件
+├── conf
+│   ├── __init__.py
+│   └── settings.py #默认和通用参数
+├── core
+│   ├── administator.py #管理员角色
+│   ├── choice.py #用户角色选择
+│   ├── common_user_choice.py #普通用户可操作选项
+│   ├── common_user.py 普通用户角色
+│   ├── freeze.py 冻结用户
+│   ├── __init__.py
+│   ├── log.py 日志收集
+│   ├── repayment.py 还款
+│   ├── shopping.py 购物
+│   ├── src.py
+│   ├── transfer.py 转账
+│   ├── user_quota_management.py 用户额度管理
+│   └── withdraw.py 提现
+├── db
+│   ├── db.txt 注册用户存储文件
+│   ├── freeze 冻结用户存储文件
+│   └── register_login.txt
+├── lib
+│   └── common.py
+├── log 日志存储
+└── Readme 帮助文件
